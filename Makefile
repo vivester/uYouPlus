@@ -37,7 +37,7 @@ $(TWEAK_NAME)_EMBED_EXTENSIONS = $(wildcard Extensions/*.appex)
 
 include $(THEOS)/makefiles/common.mk
 ifneq ($(JAILBROKEN),1)
-SUBPROJECTS += Tweaks/iSponsorBlock Tweaks/YTSpeed
+SUBPROJECTS += Tweaks/Alderis Tweaks/iSponsorBlock Tweaks/YTSpeed
 include $(THEOS_MAKE_PATH)/aggregate.mk
 endif
 include $(THEOS_MAKE_PATH)/tweak.mk
